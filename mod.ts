@@ -25,10 +25,8 @@ cache_amount{type="presences"} ${rawBot.presences.size}` : ''
     return new Response(body, { status: 200 });
 };
 
-export default async function enablePrometheusPlugin<B extends Bot = bot>(rawBot: B, port = 8888) {
+export default function enablePrometheusPlugin<B extends Bot>(rawBot: B, port = 8888) {
     rawBot.enabledPlugins.add("PROMETHEUS");
 
-    serve(() => handler(rawBot), { port }).then(r => console.log(r));
-
-    return rawBot;
+    serve(() => handler(rawBot), {port}).then(r => console.log(r));
 }
