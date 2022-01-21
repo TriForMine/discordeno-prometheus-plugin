@@ -1,9 +1,9 @@
 {
-  "$schema": "https://x.nest.land/eggs@0.3.10/src/schema.json",
+  "$schema": "https://x.nest.land/eggs@0.3.9/src/schema.json",
   "name": "discordeno_prometheus_plugin",
   "entry": "./mod.ts",
   "description": "Unofficial prometheus plugin for discordeno",
-  "homepage": "",
+  "homepage": "https://github.com/TriForMine/discordeno-prometheus-plugin",
   "unstable": true,
   "unlisted": false,
   "files": ["./**/*.ts", "README.md"],
@@ -12,5 +12,5 @@
   "checkInstallation": true,
   "check": true,
   "releaseType": "patch",
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
