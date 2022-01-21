@@ -1,0 +1,16 @@
+name: discordeno_prometheus_plugin
+description: Unofficial prometheus plugin for discordeno
+version: 0.0.2
+stable: true
+entry: ./mod.ts
+repository: 'https://github.com/TriForMine/discordeno-prometheus-plugin'
+files:
+  - ./**/*.ts
+  - README.md
+ignore:
+  - .idea
+checkFormat: deno fmt
+checkAll: false
+unlisted: false
+check: true
+homepage: ''
