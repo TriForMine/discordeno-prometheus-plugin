@@ -1,0 +1,16 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.10/src/schema.json",
+  "name": "discordeno_prometheus_plugin",
+  "entry": "./mod.ts",
+  "description": "Unofficial prometheus plugin for discordeno",
+  "homepage": "",
+  "unstable": true,
+  "unlisted": false,
+  "files": ["./**/*.ts", "README.md"],
+  "checkFormat": "deno fmt",
+  "checkTests": false,
+  "checkInstallation": true,
+  "check": true,
+  "releaseType": "patch",
+  "version": "0.0.4"
+}
