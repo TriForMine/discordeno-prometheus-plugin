@@ -5,7 +5,7 @@ that respond with stats used by Prometheus.
 As of now, it will only provide memory usage.
 
 ## Requirements
-- [Prometheus]((https://prometheus.io/docs/prometheus/latest/getting_started/).), prometheus fetches the server every x seconds/minutes and store them.
+- [Prometheus](https://prometheus.io/docs/prometheus/latest/getting_started/), prometheus fetches the server every x seconds/minutes and store them.
 - [Grafana](https://grafana.com/grafana/download?pg=get&plcmt=selfmanaged-box1-cta1&edition=oss), grafana will be used to show the data in a great dashboard.
 
 ## Optional dependencies
