@@ -10,7 +10,5 @@
   "checkFormat": "deno fmt",
   "checkTests": false,
   "checkInstallation": true,
-  "check": true,
-  "releaseType": "patch",
-  "version": "0.0.5"
+  "check": true
 }
